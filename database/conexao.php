@@ -4,4 +4,4 @@ define('USUARIO', 'root');
 define('SENHA', '');
 define('DB', 'login');
 
-$connection = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
+$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
