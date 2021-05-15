@@ -15,7 +15,9 @@ CREATE TABLE `login`.`usuario` (
 ```
   
 ##Insert datas
-```INSERT INTO `usuario` (`usuario`,`senha`) VALUES ('admin','202cb962ac59075b964')```
+```
+INSERT INTO `usuario` (`usuario`,`senha`) VALUES ('admin','202cb962ac59075b964')
+```
 
 Giving acess
 ```
