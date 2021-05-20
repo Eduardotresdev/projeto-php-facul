@@ -1,6 +1,6 @@
     <nav id="menu-h">
         <ul>
-            <li><a href="cadastro.php">Clientes</a></li>
+            <li><a href="../menu/clients.php">Clientes</a></li>
             <li><a href="#">Produtos</a></li>            
             <li><a href="#">Fornecedores</a></li>            
             <li><a href="#">Funcionários</a></li>
