@@ -14,13 +14,16 @@ if (isset($_POST['save'])) {
     $data_nascimento = $_POST['data_nascimento'];
     $telefone = $_POST['telefone'];
     $sexo = $_POST['sexo'];
+    $turno = $_POST['turno'];
+    $cargo = $_POST['cargo'];
 
     if (!$connection) {
         die('Não foi possível conectar ao Banco de Dados');
     }
-    $sql = "INSERT INTO cadastro_cliente (nome, endereco, cidade, 
-    bairro, cep, estado, rg, cpf, sexo, data_nascimento, email, telefone) 
-    VALUES ('$nome', '$endereco', '$cidade', '$bairro', '$cep', '$estado','$rg', '$cpf', '$sexo', '$data_nascimento', '$email', '$telefone')";
+    $sql = "INSERT INTO funcionarios (nome, endereco, cidade, 
+    bairro, cep, estado, rg, cpf, sexo, data_nascimento, email, telefone, turno, cargo) 
+    VALUES ('$nome', '$endereco', '$cidade', '$bairro', '$cep', '$estado','$rg', '$cpf', '$sexo', '$data_nascimento', '$email', '$telefone', '$turno', '$cargo')";
+    var_dump($sql);
     mysqli_query($connection, $sql) or die("Erro ao tentar cadastrar registro");
     mysqli_close($connection);
     header('Location: ../painel.php');
