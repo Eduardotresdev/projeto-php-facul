@@ -48,26 +48,6 @@ CREATE TABLE `cadastro_cliente` (
 -- Dumping data for table `cadastro_cliente`
 --
 
-INSERT INTO `cadastro_cliente` (`codigo`, `nome`, `endereco`, `cidade`, `bairro`, `cep`, `estado`, `rg`, `cpf`, `sexo`, `data_nascimento`, `email`, `telefone`) VALUES
-(1, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(2, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(3, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(4, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(5, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(6, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(7, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(8, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(9, '123', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '', NULL),
-(10, '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(11, '4', '3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(12, '3', '4', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(13, '43', '', '3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(14, '23', '33', '', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL),
-(15, '', '2', '21', '2', '2', '32', NULL, NULL, NULL, NULL, NULL, NULL),
-(16, '3', '', '', '', '', '', '', '', NULL, NULL, NULL, NULL),
-(17, '23', '', '', '', '', '', '', '', '', '', NULL, NULL),
-(18, '3', '', '', '', '', '', '', '', '', '', NULL, NULL),
-
 -- --------------------------------------------------------
 
 --
